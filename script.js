@@ -1,49 +1,45 @@
-/*
-KEY FEATURE: Personalize it
-https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null
-*/
 
+// variables for script and button
 var displayScript = document.getElementById("scriptReturned");
 var scriptBtn = document.getElementById("scriptBtn");
-//Will need to explain that sometimes the DOM doesn't load all the way, so the browser can't find the element for JavaScript to use
 
+// generates script when button is clicked
 if (scriptBtn) {
   scriptBtn.addEventListener("click", generateScript);
 }
 
-/*
-REFACTOR ITEM 2: 
-Create a separate function for displaying the script.
-Be sure to update function names.
-*/
 
+// script generator... this will put in values that the user inputted into the form.
 function generateScript() {
-  //This variable must be in the function or it will not work
+  // variables that hold user input
   var name = document.getElementById("name").value;
   var location = document.getElementById("location").value;
   var learning = document.getElementById("learning").value;
 
-  displayScript.innerHTML = "Hello, my name is " + name + " and I live in " + location + ". I am calling to ask you to support the initiative to limit plastic waste. As a student, I have learned the tremendous environmental, economic, and health effects plastic waste can cause. For example, " + learning + ". Please support Green Peace's initiative to save our planet.";
+  // shows script on the screen
+  displayScript.innerHTML = "Hello, my name is " + name + " and I live in " + location + ". I am calling to ask you to support the initiative to minimize the digital divide. As a member of your community, I deeply care about the wellbeing of those in both our community and others. The digital divide further perpetuates social and economic disparities, and it's not going anywhere unless we do soemthing. For example, " + learning + ". Please support our community's initiative to minimize the digital divide around our nation.";
 }
 
 
-//Move these variables to the top
+// creates a fact list that the button will sort through when generating facts
 var factList = [
-  "Around 75 to 199 million tons of plastic can currently be found in the ocean.", 
-  "Only less than 10 percent of the 7 billion tons of plastic waste generated globally so far has been recycled.", 
-  "Most plastic simply breaks down further and further and does not disappear. It can enter the human body and accumulate in organs, causing intense health problems.", 
-  "The amount of plastic entering aquatic ecosystems could nearly triple to around  23-37 million tons per year by 2040.", 
-  "Around 400 million tons of plastic waste is produced every year."
+  "\"The consequences of the digital divide include isolation, which can affect mental health, educational barriers as postsecondary education increasingly moves online, and worsening gender discrimination.", 
+  "\"The COVID-19 pandemic has exposed the differences in digital coverage in the U.S., such as among children forced to attend school remotely and in less affluent communities where people have struggled to get vaccination appointments.\"", 
+  "\"The Access Divide: This is the most visible digital divide. It refers to the socioeconomic differences among people and the impact on their ability to afford the devices necessary to get online. In developing countries, many people have limited access to technology and/or the internet and do not have the skills necessary to use it effectively.\"", 
+  "\"The Use Divide: This refers to the difference in the level of skills possessed by individuals. There is a generation gap when it comes to the skills necessary to use the internet. It is also affected by the quality of education that an individual receives. Younger, educated people tend to have more skills than older, less educated people.\"", 
+  "\"The Quality-of-Use Gap: This measure refers to the different ways that people use the internet and the fact that some people are far more able to get the information they need from it than others.\""
 ];
 
 var fact = document.getElementById("fact");
 var factBtn = document.getElementById("factBtn");
 var count = 0;
 
+//displays a new fact every time button is clicked
 if (factBtn) {
   factBtn.addEventListener("click", displayFact);
 }
 
+// function that sorts through the fact list and displays one
 function displayFact() {
   fact.innerHTML = factList[count];
   count++;

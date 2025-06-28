@@ -1,13 +1,14 @@
-/* STYLE SECTIONING TAGS */
+
 * { /* Reset the space of the webpage */
    margin: 0px;
    padding: 0px;
 }
 
+/* style the background */
 body {
   height: 100%;
   box-sizing: border-box;
-  background-color: #caf0fe;
+  background-color: #a8c6fe;
 
   font-family: "Georgia"; 
   font-size: 20px;  
@@ -15,15 +16,18 @@ body {
   color: #002e7a; 
 }
 
+/* style the header */
 header {
   padding-top: 50px;   
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
   margin: 1px;         
 }
 
+/* style the main */
 main { 
-  padding-top: 25px;      
+  text-align: center;
+  padding-top: 50px;      
   padding-bottom: 50px;
   padding-left: 100px;
   padding-right: 100px;
@@ -33,18 +37,20 @@ main {
   
 }
 
-/* STYLE TEXT */
+/* style big headers */
 h1 {
   font-family: "Arial", sans-serif;
   font-size: 50px;
   text-align: center;
-  color: #4f7a28ff;
+  color: #001e57ff;
   line-height: 60px;
   letter-spacing: 12px;
- 
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin: 2px;
 }
 
+/* style the smaller headers */
 h2 {
   font-family: "Roboto Mono", sans-serif;
   font-size: 35px;
@@ -53,10 +59,11 @@ h2 {
   line-height: 1.3em;
   letter-spacing: 3px;
   
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
+/* style smaler text */
 h3 {
   font-family: "Roboto Mono", sans-serif;
   font-size: 25px;
@@ -68,7 +75,7 @@ h3 {
 }
 
 
-
+/* style the subtitles */
 .subtitle{
   text-align: center;
   font-size: 25px;
@@ -84,19 +91,19 @@ h3 {
 }
 
 a {
-  color: #4f7a28ff;
+  color: #0056d6ff;
   text-decoration: none;
 }
   
 
-/* STYLE NAV BAR */
+/* style the navigation bar */
 ul.nav-bar {
   list-style-type: none;        
   overflow: hidden;
   
-  background-color: #43d6b9ff;
+  background-color: #74a7feff;
   border-style: solid;
-  border-color: #0D38D3;
+  border-color: #3a88fe;
 }
 
 li.nav-item {
@@ -120,21 +127,23 @@ li.nav-item a {
 
 li.nav-item a:hover {
   background-color: #0D38D3;
-  color: #b1dd8c;
+  color: #53d5fd;
 }
 
 
-/* STYLE IMAGES - Includes Make it responsive Key Feature */
+/* styles images */
 img {
   display: block;      
   width: 90%;          
   height: auto;        
   margin-left: auto;
   margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
   
   border-style: solid;
-  border-color: #fdd946;
-  border-width: 8px;
+  border-color: #a8c6fe;
+  border-width: 5px;
   border-radius: 5px;
 }
 
@@ -149,13 +158,13 @@ img {
   margin: 1%;          
 }
 
-/* STYLE BUTTONS */
+/* styles buttons */
 #factBtn {
-  background: #0D38D3;
+  background: #0056d6;
   border-style: none;
   border-radius: 10px;
 
-  padding: 10px;
+  padding: 15px;
   margin-top: 20px;
   margin-bottom: 15px;
 
@@ -164,7 +173,7 @@ img {
 }
 
 #scriptBtn {
-  background: #0D38D3;
+  background: #3a88fe;
   border-style: none;
   border-radius: 10px;
 
@@ -178,23 +187,23 @@ img {
   font-size: 1em;
 }
 
-/* STYLE GENERATE A FACT KEY FEATURE */
+/* styles the generate a fact feature */
 .genFact {
-  background: #00c7fc;
+  background: #74a7fe;
   border-radius: 10px;
   border-style: none;
 
-  padding: 15px;
+  padding: 30px;
 
   margin-top: 30px;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 15%;
+  margin-right: 25%;
 
   font-family: "Roboto Mono", sans-serif;
-  font-size: 0.9em;
+  font-size: 1.3em;
   text-align: center;
   line-height: 1.2em;
-  color: #0D38D3;
+  color: #0042aa;
 }
 
 #fact {
@@ -203,21 +212,21 @@ img {
   padding: 15px;
 
   margin-top: 30px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 2%;
+  margin-right: 2%;
 
   font-family: "Roboto Mono", sans-serif;
   font-size: 2em;
   text-align: center;
   line-height: 1.2em;
-  color: #43d6b9ff;
+  color: #0056d6ff;
 
 }
 
-/* STYLE PERSONALIZE IT KEY FEATURE  */
+/* styles the script feature  */
 
 .scriptQues {
-  background: #53d5fd;
+  background: #74a7fe;
   border-radius: 10px;
 
   margin-top: 5%;
@@ -226,7 +235,7 @@ img {
 
   font-family: "Roboto Mono", sans-serif;
   font-size: 0.9em;
-  color: #0D38D3;
+  color: #ffffff;
 }
 
 .scriptItem{
@@ -255,7 +264,7 @@ input {
   color: #002e7a;
 }
 
-/* STYLE MISC */
+/* miscellaneous style features */
 .resources {
   margin-top: 10px;
   margin-left: 15%;
