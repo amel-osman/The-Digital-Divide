@@ -8,12 +8,12 @@
 body {
   height: 100%;
   box-sizing: border-box;
-  background-color: #FFECCC;
+  background-color: #11053b;
 
-  font-family: "Georgia"; 
+  font-family: Monaco, Lucida Console, Monospace;
   font-size: 20px;  
-  line-height: 1.5em;
-  color: #722323 
+  line-height: 3.0em;
+  color: #ffffff 
 }
 
 /* style the header */
@@ -39,10 +39,10 @@ main {
 
 /* style big headers */
 h1 {
-  font-family: "Georgia", sans-serif;
+  font-family: "Copperplate", "Papyrus", Fantasy;
   font-size: 70px;
   text-align: center;
-  color: #722323;
+  color: #b18cfe;
   line-height: 80px;
   letter-spacing: 6px;
   padding-top: 50px;
@@ -52,10 +52,10 @@ h1 {
 
 /* style the smaller headers */
 h2 {
-  font-family: "Georgia";
+  font-family: "Copperplate", "Papyrus", Fantasy;
   font-size: 45px;
   text-align: center;
-  color: #BA487F;
+  color: #b18cfe;
   line-height: 1.3em;
   letter-spacing: 3px;
   
@@ -65,10 +65,10 @@ h2 {
 
 /* style smaler text */
 h3 {
-  font-family: "Georgia";
+  font-family: Monaco, Lucida Console, Monospace;
   font-size: 25px;
   text-align: center;
-  color: #BA487F;
+  color: #371a94;
   line-height: 1.3em;
   
   padding-bottom: 15px;
@@ -91,7 +91,7 @@ h3 {
 }
 
 a {
-  color: #FF9587;
+  color: #b18cfe;
   text-decoration: none;
 }
   
@@ -101,9 +101,9 @@ ul.nav-bar {
   list-style-type: none;        
   overflow: hidden;
   
-  background-color: #BA487F;
+  background-color: #471396;
   border-style: solid;
-  border-color: #934d6f;
+  border-color: #b18cfe;
 }
 
 li.nav-item {
@@ -126,7 +126,7 @@ li.nav-item a {
 }
 
 li.nav-item a:hover {
-  background-color: #FF9587;
+  background-color: #b18cfe;
   color: #ffffff;
 }
 
@@ -155,7 +155,7 @@ img {
 
 /* styles buttons */
 #factBtn {
-  background: #BA487F;
+  background: #371a94;
   border-style: none;
   border-radius: 10px;
 
@@ -168,7 +168,7 @@ img {
 }
 
 #scriptBtn {
-  background: #FF9587;
+  background: #371a94;
   border-style: none;
   border-radius: 10px;
 
@@ -184,7 +184,7 @@ img {
 
 /* styles the generate a fact feature */
 .genFact {
-  background: #FF9587;
+  background: #b18cfe;
   border-radius: 10px;
   border-style: none;
 
@@ -194,7 +194,7 @@ img {
   margin-left: 10%;
   margin-right: 10%;
 
-  font-family: "Georgia", sans-serif;
+  font-family: Monaco, Lucida Console, Monospace;
   font-size: 1.3em;
   text-align: center;
   line-height: 1.2em;
@@ -214,14 +214,14 @@ img {
   font-size: 2em;
   text-align: center;
   line-height: 1.2em;
-  color: #BA487F;
+  color: #b18cfe;
 
 }
 
 /* styles the script feature  */
 
 .scriptQues {
-  background: #BA487F;
+  background: #b18cfe;
   border-radius: 10px;
 
   margin-top: 5%;
@@ -256,7 +256,7 @@ input {
   margin-left: 15%;
   margin-right: 15%;
 
-  color: #BA487F;
+  color: #b18cfe;
 }
 
 /* miscellaneous style features */

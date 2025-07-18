@@ -17,7 +17,7 @@ function generateScript() {
   var learning = document.getElementById("learning").value;
 
   // shows script on the screen
-  displayScript.innerHTML = "Hello, my name is " + name + " and I live in " + location + ". I am calling to ask you to support the initiative to minimize the digital divide. As a member of your community, I deeply care about the wellbeing of those in both our community and others. The digital divide further perpetuates social and economic disparities, and it's not going anywhere unless we do soemthing. For example, " + learning + ". Please support our community's initiative to minimize the digital divide around our nation.";
+  displayScript.innerHTML = "Hello, my name is " + name + " and I live in " + location + ". I am calling to ask you to support the initiative to minimize the digital divide. As a member of your community, I deeply care about the wellbeing of those in both our community and others. The digital divide further perpetuates social and economic disparities, and it's not going anywhere unless we do something. For example, " + learning + ". Please support our community's initiative to minimize the digital divide around our nation.";
 }
 
 
